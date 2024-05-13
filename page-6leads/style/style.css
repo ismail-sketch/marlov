@@ -204,6 +204,9 @@ body {
   font-weight: 700;
   border-radius: 8px;
   transform: translateX(-10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top__present-img {
   transform: translate(5px, -2px);
@@ -232,7 +235,7 @@ body {
   }
 }
 @media (max-width: 360px) {
-  .top__button {
+  .top__button, .top__button-present {
     width: 100%;
   }
 }
