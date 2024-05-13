@@ -38,6 +38,7 @@ body {
   left: 0;
   transform: translate(-119px, -179px);
   min-width: 620px;
+  pointer-events: none;
 }
 .top__image-mob {
   display: none;
@@ -184,6 +185,14 @@ body {
 
 .top__button {
   margin-top: 105px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+}
+@media (max-width: 360px) {
+  .top__button {
+    width: 100%;
+  }
 }
 
 .top__info-wrapper {
