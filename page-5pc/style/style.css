@@ -13,7 +13,7 @@ body {
 .top {
   padding-top: 217px;
   background-image: none;
-  min-height: 900px;
+  min-height: 757px;
   overflow: hidden;
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 .top__button {
-  margin-top: 105px;
+  margin-top: 60px;
 }
 
 .top__info-wrapper {
